@@ -23,10 +23,10 @@ defmodule Mailchimp.Mixfile do
 
   defp deps do
     [
-      {:httpoison, "~> 1.6"},
+      {:httpoison, "~> 2.0"},
       {:jason, "~> 1.1"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
-      {:exvcr, "~> 0.11", only: :test}
+      {:exvcr, "~> 0.14", only: :test}
     ]
   end
 
